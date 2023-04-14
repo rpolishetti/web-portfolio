@@ -1,0 +1,15 @@
+.appRoot {
+  min-height: 100vh;
+  display: flex;
+  @apply text-slate-300;
+}
+
+
+@media screen(xl) {
+  /* ... */
+  .contentSection {
+    flex-grow: 1;
+  }
+}
+
+
